@@ -22,11 +22,11 @@ repositories {
 
 dependencies {
   // bring in everything: 
-  implementation("xyz.block:tbdex:0.10.0-beta")
+  implementation("io.github.leordev:tbdex:0.10.0-beta")
   // OR if you want to import separate packages (eg may only want client and protocol):
-  implementation("xyz.block:tbdex-httpclient:0.10.0-beta")
-  implementation("xyz.block:tbdex-httpserver:0.10.0-beta")
-  implementation("xyz.block:tbdex-protocol:0.10.0-beta")
+  implementation("io.github.leordev:tbdex-httpclient:0.10.0-beta")
+  implementation("io.github.leordev:tbdex-httpserver:0.10.0-beta")
+  implementation("io.github.leordev:tbdex-protocol:0.10.0-beta")
 }
 ```
 
@@ -54,7 +54,7 @@ dependencies {
 
     <depedencies>
       <dependency>
-          <groupId>xyz.block</groupId>
+          <groupId>io.github.leordev</groupId>
           <artifactId>tbdex-httpclient</artifactId>
           <version>0.10.0-beta</version>
       </dependency>
@@ -104,17 +104,17 @@ dependencies {
 
             <!-- TBD Dependencies -->
             <dependency>
-                <groupId>xyz.block</groupId>
+                <groupId>io.github.leordev</groupId>
                 <artifactId>tbdex-httpclient</artifactId>
                 <version>${version.tbdex}</version>
             </dependency>
             <dependency>
-                <groupId>xyz.block</groupId>
+                <groupId>io.github.leordev</groupId>
                 <artifactId>tbdex-httpserver</artifactId>
                 <version>${version.tbdex}</version>
             </dependency>
             <dependency>
-                <groupId>xyz.block</groupId>
+                <groupId>io.github.leordev</groupId>
                 <artifactId>tbdex-protocol</artifactId>
                 <version>${version.tbdex}</version>
             </dependency>
@@ -130,11 +130,11 @@ dependencies {
 
         <!-- TBD Dependencies -->
         <dependency>
-            <groupId>xyz.block</groupId>
+            <groupId>io.github.leordev</groupId>
             <artifactId>tbdex-httpclient</artifactId>
         </dependency>
         <dependency>
-            <groupId>xyz.block</groupId>
+            <groupId>io.github.leordev</groupId>
             <artifactId>tbdex-protocol</artifactId>
         </dependency>
     </dependencies>
@@ -235,7 +235,7 @@ dependencies {
 ...
 
 <dependency>
-    <groupId>xyz.block</groupId>
+    <groupId>io.github.leordev</groupId>
     <artifactId>tbdex-httpclient</artifactId>
     <version>${version.tbdex}</version>
 </dependency>

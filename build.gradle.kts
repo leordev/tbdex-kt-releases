@@ -28,7 +28,7 @@ dependencies {
 }
 
 allprojects {
-  group = "xyz.block"
+  group = "io.github.leordev"
 }
 
 subprojects {
@@ -88,12 +88,12 @@ subprojects {
           name = publicationName
           packaging = "jar"
           description.set("tbdex kotlin SDK")
-          url.set("https://github.com/TBD54566975/tbdex-kt")
+          url.set("https://github.com/leordev/tbdex-kt-releases")
           inceptionYear.set("2023")
           licenses {
             license {
               name.set("The Apache License, Version 2.0")
-              url.set("https://github.com/TBD54566975/tbdex-kt/blob/main/LICENSE")
+              url.set("https://github.com/leordev/tbdex-kt-releases/blob/main/LICENSE")
             }
           }
           developers {
@@ -104,9 +104,9 @@ subprojects {
             }
           }
           scm {
-            connection.set("scm:git:git@github.com:TBD54566975/tbdex-kt.git")
-            developerConnection.set("scm:git:ssh:git@github.com:TBD54566975/tbdex-kt.git")
-            url.set("https://github.com/TBD54566975/tbdex-kt")
+            connection.set("scm:git:git@github.com:leordev/tbdex-kt-releases.git")
+            developerConnection.set("scm:git:ssh:git@github.com:leordev/tbdex-kt-releases.git")
+            url.set("https://github.com/leordev/tbdex-kt-releases")
           }
         }
       }
@@ -132,7 +132,7 @@ subprojects {
       )
 
       sourceLink {
-        val exampleDir = "https://github.com/TBD54566975/tbdex-kt/tree/main"
+        val exampleDir = "https://github.com/leordev/tbdex-kt-releases/tree/main"
 
         localDirectory.set(rootProject.projectDir)
         remoteUrl.set(URL(exampleDir))
@@ -175,12 +175,12 @@ publishing {
         packaging = "jar"
         name = project.name
         description.set("tbdex kotlin SDK")
-        url.set("https://github.com/TBD54566975/tbdex-kt")
+        url.set("https://github.com/leordev/tbdex-kt-releases")
         inceptionYear.set("2023")
         licenses {
           license {
             name.set("The Apache License, Version 2.0")
-            url.set("https://github.com/TBD54566975/tbdex-kt/blob/main/LICENSE")
+            url.set("https://github.com/leordev/tbdex-kt-releases/blob/main/LICENSE")
           }
         }
         developers {
@@ -191,9 +191,9 @@ publishing {
           }
         }
         scm {
-          connection.set("scm:git:git@github.com:TBD54566975/tbdex-kt.git")
-          developerConnection.set("scm:git:ssh:git@github.com:TBD54566975/tbdex-kt.git")
-          url.set("https://github.com/TBD54566975/tbdex-kt")
+          connection.set("scm:git:git@github.com:leordev/tbdex-kt-releases.git")
+          developerConnection.set("scm:git:ssh:git@github.com:leordev/tbdex-kt-releases.git")
+          url.set("https://github.com/leordev/tbdex-kt-releases")
         }
       }
     }
