@@ -28,7 +28,7 @@ dependencies {
 }
 
 allprojects {
-  group = "io.github.leordev"
+  group = "com.github.leordev"
 }
 
 subprojects {
