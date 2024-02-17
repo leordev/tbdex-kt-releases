@@ -64,7 +64,6 @@
   ],
   "packages": {
     ".": {
-      "changelog-path": "CHANGELOG.md",
       "release-type": "java",
       "bump-minor-pre-major": true,
       "bump-patch-for-minor-pre-major": true,
@@ -76,17 +75,14 @@
     },
     "protocol": {
       "component": "tbdex-protocol",
-      "changelog-path": "CHANGELOG.md",
       "release-type": "java"
     },
     "httpclient": {
       "component": "tbdex-httpclient",
-      "changelog-path": "CHANGELOG.md",
       "release-type": "java"
     },
     "httpserver": {
       "component": "tbdex-httpserver",
-      "changelog-path": "CHANGELOG.md",
       "release-type": "java"
     }
   },
