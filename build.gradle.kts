@@ -5,6 +5,9 @@ import org.jetbrains.dokka.gradle.DokkaTaskPartial
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import java.net.URL
 
+project.group = "com.github.leordev"
+project.version = "0.1.0" // x-release-please-version
+
 plugins {
   id("org.jetbrains.kotlin.jvm") version "1.9.0"
   id("java-library")

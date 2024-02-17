@@ -1,0 +1,6 @@
+{
+  ".": "0.1.0",
+  "protocol": "0.1.0",
+  "httpclient": "0.1.0",
+  "httpserver": "0.1.0"
+}
