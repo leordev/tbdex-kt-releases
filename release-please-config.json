@@ -1,12 +1,93 @@
 {
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": "Features",
+      "hidden": false
+    },
+    {
+      "type": "feature",
+      "section": "Features"
+    },
+    {
+      "type": "fix",
+      "section": "Updates and Bug Fixes",
+      "hidden": false
+    },
+    {
+      "type": "perf",
+      "section": "Performance Improvements"
+    },
+    {
+      "type": "ci",
+      "section": "Continuous Integration",
+      "hidden": true
+    },
+    {
+      "type": "chore",
+      "section": "Miscellaneous",
+      "hidden": true
+    },
+    {
+      "type": "revert",
+      "section": "Reverts"
+    },
+    {
+      "type": "docs",
+      "section": "Documentation"
+    },
+    {
+      "type": "style",
+      "section": "Styles",
+      "hidden": false
+    },
+    {
+      "type": "refactor",
+      "section": "Code Refactoring",
+      "hidden": false
+    },
+    {
+      "type": "test",
+      "section": "Tests",
+      "hidden": false
+    },
+    {
+      "type": "build",
+      "section": "Build System",
+      "hidden": false
+    },
+    {
+      "type": "",
+      "section": "Changes",
+      "hidden": false
+    }
+  ],
   "packages": {
     ".": {
       "changelog-path": "CHANGELOG.md",
       "release-type": "java",
-      "bump-minor-pre-major": false,
-      "bump-patch-for-minor-pre-major": false,
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": true,
       "draft": false,
-      "prerelease": false
+      "prerelease": false,
+      "extra-files": [
+        "build.gradle.kts"
+      ]
+    },
+    "protocol": {
+      "component": "tbdex-protocol",
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "java"
+    },
+    "httpclient": {
+      "component": "tbdex-httpclient",
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "java"
+    },
+    "httpserver": {
+      "component": "tbdex-httpserver",
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "java"
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
